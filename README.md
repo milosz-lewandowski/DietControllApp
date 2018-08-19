@@ -1,9 +1,14 @@
 # DietControllApp
 Application is my final project after Java bootcamp in Coders Lab.
 It's MVC web application written in Java Spring and Hibernate.
-Users have ability to add products with their parameters to MySQL database.
-Requests to DB are created by Hibernate repositories. It allows to add products with specified quantity to their meals, 
-which are saved in DB with specified dates. Thanks to that, every user have it's own meals calendar, 
-what allows him to check how many calories and macro he consumed in choosen peroid of time.
-When all primary funcionalities will be implemented, I will probably add some jQuery code, to improve the display process and
-Java Spring Security, to let users keep their data safe and private.
+
+Features: 
+-Users have ability to add new products with their parameters to MySQL database.
+-Products with their quantity can be added to meals, which are saved to meal calendar with specified date.
+-Finding products by categories(tags) or name search.
+-Every user have his own meals calendar and can check how many calories and macro elements he consumed in choosen peroid of time.
+
+Future development:
+-adding some jQuery code, to improve the display process.
+-adding Java Spring Security, to let users keep their data safe and private.
+This app is my final project at Coders Lab Java bootcamp. It's MVC web application written in Java Spring and Hibernate, where users can add products to meals calendar to count their calories and control their diet in a specified period of time.
